@@ -6,9 +6,9 @@ import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/black.css';
 
 import Reveal from 'reveal.js';
-import RebealMarkdown from 'reveal.js/plugin/markdown/markdown';
+import RevealMarkdown from 'reveal.js/plugin/markdown/markdown';
 
 const deck = new Reveal({
-  plugins: [RebealMarkdown],
+  plugins: [RevealMarkdown],
 });
 await deck.initialize({ hash: true, slideNumber: true });
