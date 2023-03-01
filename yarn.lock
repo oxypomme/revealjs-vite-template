@@ -436,6 +436,11 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
+"@types/reveal.js@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@types/reveal.js/-/reveal.js-4.4.2.tgz#bc6248b6236ee7af7ef108eb5d8c947772a04ea9"
+  integrity sha512-z+lVPEWGPFrPv3S9Mx2qLKXA4zT+Mo3GxvW68OR7lbUcCmqjn4vjaQJ2qCW+xNkBUgfR8d3fzLWHmu1PIfRiIA==
+
 "@types/semver@^7.3.12":
   version "7.3.13"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
