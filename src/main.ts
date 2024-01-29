@@ -8,7 +8,10 @@ import 'reveal.js/dist/theme/black.css';
 import Reveal from 'reveal.js';
 import RevealMarkdown from 'reveal.js/plugin/markdown/markdown';
 
-const deck = new Reveal({
+Reveal.initialize({
   plugins: [RevealMarkdown],
-});
-await deck.initialize({ hash: true, slideNumber: true });
+  hash: true,
+  slideNumber: true,
+})
+  // eslint-disable-next-line no-console
+  .catch((e) => console.error(e));
